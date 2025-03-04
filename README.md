@@ -42,23 +42,30 @@ s.n. dasgupta
 ### Display the content of the files
 cat < file1
 ## OUTPUT
+![Screenshot from 2025-03-04 14-21-20](https://github.com/user-attachments/assets/ecab27f9-9ec4-4123-8ba0-846149342b47)
 
 
 
 cat < file2
 ## OUTPUT
+![Screenshot from 2025-03-04 14-21-55](https://github.com/user-attachments/assets/6b92a3b5-280c-47c1-a4bc-a4423bb75a94)
+
 
 
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
- 
+ ![Screenshot from 2025-03-04 14-22-22](https://github.com/user-attachments/assets/8aa9a659-3c25-47c0-95d8-3dbd2a8c4dcd)
+
 comm file1 file2
  ## OUTPUT
+![Screenshot from 2025-03-04 14-22-43](https://github.com/user-attachments/assets/b25302bf-5aa7-4100-a2e7-acd4c049003b)
 
  
 diff file1 file2
 ## OUTPUT
+![Screenshot from 2025-03-04 14-22-56](https://github.com/user-attachments/assets/2b201075-05c9-465c-b09e-6e16dd2956f5)
+
 
 
 #Filters
@@ -77,22 +84,27 @@ cat > file22
 1002 | tom |  5000 | Admin
 1003 | Joe |  7000 | Developer
 ^d
-```
+
+
 
 
 cut -c1-3 file11
+```
 ## OUTPUT
+![Screenshot from 2025-03-04 14-38-15](https://github.com/user-attachments/assets/cc06626d-5015-4a97-a92a-9fdf2d8b3743)
 
 
 
 
 cut -d "|" -f 1 file22
 ## OUTPUT
+![Screenshot from 2025-03-04 14-38-34](https://github.com/user-attachments/assets/1fb28424-aac5-4984-a6e1-866297948303)
 
 
 
 cut -d "|" -f 2 file22
 ## OUTPUT
+![Screenshot from 2025-03-04 14-38-59](https://github.com/user-attachments/assets/0f0c045e-9ee3-4357-b09a-795d6ec5dced)
 
 
 cat < newfile 

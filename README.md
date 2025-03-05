@@ -3,8 +3,8 @@ Operating systems Lab exercise
 # Linux commands-Shell scripting
 Linux commands-Shell scripting
 
-## DEVELOPED BY: D.B.V. SAI GANESH
-## REG.NO: 212223240025
+## DEVELOPED BY: DHARSHAN R
+## REG.NO: 212224230060
 # AIM:
 To practice Linux Commands and Shell Scripting
 
